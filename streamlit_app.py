@@ -56,7 +56,7 @@ set_background_color()
 
 # Streamlit UI
 
-st.markdown('<h1 style="color:black;">Sentiment Analysis with LIME Explanation</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="color:white;">Sentiment Analysis with LIME Explanation</h1>', unsafe_allow_html=True)
 
 # Input text from user
 input_text = st.text_area('Enter text for sentiment analysis:')

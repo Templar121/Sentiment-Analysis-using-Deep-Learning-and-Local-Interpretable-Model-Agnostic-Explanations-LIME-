@@ -65,7 +65,7 @@ if st.button('Analyze'):
     if input_text:
         # Display sentiment prediction
         prediction = model.predict(pad_sequences(tokenizer.texts_to_sequences([input_text]), maxlen=max_review_length))
-        sentiment = class_names[int(prediction[0][0] >= 0.5)]
+        sentiment = class_names[int(prediction[0][0] > 0.5)]
         st.write(f'Predicted sentiment: {sentiment}')
 
         # Get LIME explanation

@@ -6,7 +6,7 @@ from lime.lime_text import LimeTextExplainer
 import pickle
 import joblib
 
-# Load your trained model and tokenizer
+# Loading trained model and tokenizer
 model = joblib.load('model.pkl')
 
 st.set_page_config(page_title="Sentiment Analysis using LIME Explainer")
@@ -14,7 +14,7 @@ st.set_page_config(page_title="Sentiment Analysis using LIME Explainer")
 with open('tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
-# Define constants
+# Defining constants
 max_review_length = 500
 class_names = ['negative', 'positive']
 explainer = LimeTextExplainer(class_names=class_names)

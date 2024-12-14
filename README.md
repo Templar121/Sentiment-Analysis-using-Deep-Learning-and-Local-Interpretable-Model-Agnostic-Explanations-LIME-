@@ -99,17 +99,16 @@ The model is trained using the training data consisting of **40,000 reviews**. D
 - **Batch Size:** The batch size is set to **64**, which determines how many samples are processed before the model's weights are updated.
 
 The model's training process helps it learn to predict sentiment from the reviews effectively.
----
+
 
 ## Evaluation
 
 The model’s performance is evaluated on a **test set** consisting of **10,000 reviews**. The evaluation metric used is **accuracy**, which measures the proportion of correctly predicted sentiments. After the evaluation, the results (test accuracy) are printed to the console, providing insight into how well the model generalizes to unseen data.
----
+
 
 ## Interpretability with LIME
 
-*LIME (Local Interpretable Model-agnostic Explanations)** is used to interpret the model's predictions for individual reviews. It provides insight into which features (words) were most influential in determining the sentiment of a given review. This is particularly useful for understanding and explaining black-box model decisions.
----
+LIME (Local Interpretable Model-agnostic Explanations)** is used to interpret the model's predictions for individual reviews. It provides insight into which features (words) were most influential in determining the sentiment of a given review. This is particularly useful for understanding and explaining black-box model decisions.
 
 ### To use LIME:
 

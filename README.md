@@ -108,7 +108,7 @@ The model’s performance is evaluated on a **test set** consisting of **10,000 
 
 ## Interpretability with LIME
 
-**LIME (Local Interpretable Model-agnostic Explanations)** is used to interpret the model's predictions for individual reviews. It provides insight into which features (words) were most influential in determining the sentiment of a given review. This is particularly useful for understanding and explaining black-box model decisions.
+*LIME (Local Interpretable Model-agnostic Explanations)** is used to interpret the model's predictions for individual reviews. It provides insight into which features (words) were most influential in determining the sentiment of a given review. This is particularly useful for understanding and explaining black-box model decisions.
 ---
 
 ### To use LIME:
